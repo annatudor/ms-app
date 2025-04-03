@@ -1,0 +1,20 @@
+.video-player {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.video-player .react-player {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.video-player {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video-player video {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+}

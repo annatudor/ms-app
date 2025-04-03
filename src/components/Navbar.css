@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #2d0c50;
+    color: #e29c06;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Logo-ul rămâne în stânga */
+  }
+  
+  .logo-image {
+    height: 50px;
+    margin-right: 10px; 
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+    position: absolute; /* Poziționează link-urile absolut */
+    left: 50%; /* Centrează link-urile orizontal */
+    transform: translateX(-50%); /* Ajustează centrarea */
+  }
+  
+  .navbar-links a {
+    color: #e29c06;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #29ae8d;
+  }

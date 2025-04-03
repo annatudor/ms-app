@@ -1,0 +1,39 @@
+.footer {
+    background-color: #483201;
+    color: #29ae8d;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-nav {
+    margin: 10px 0;
+  }
+  
+  .footer-nav a {
+    color: #29ae8d;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-nav a:hover {
+    color: #e29c06;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    color: #29ae8d;
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .social-media a:hover {
+    color: #e29c06;
+  }

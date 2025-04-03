@@ -1,0 +1,89 @@
+.home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-doctor {
+    margin: 20px 0;
+  }
+  
+  .about-doctor h2 {
+    color: #2d0c50;
+    font-size: 2rem;
+  }
+  
+  .about-doctor p {
+    color: #483201;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .doctor-video {
+    margin: 40px 0;
+  }
+  
+  .doctor-video h2 {
+    color: #2d0c50;
+    font-size: 2rem;
+  }
+  
+  .patient-reviews {
+    margin: 40px 0;
+  }
+  
+  .patient-reviews h2 {
+    color: #2d0c50;
+    font-size: 2rem;
+  }
+  
+  .reviews-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  blockquote {
+    background-color: #29ae8d;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  .contact-button {
+    background-color: #e29c06;
+    color: #2d0c50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .contact-button:hover {
+    background-color: #29ae8d;
+  }
+  
+  .platypus-audio {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .platypus-audio img {
+    width: 100px;
+    cursor: pointer;
+  }

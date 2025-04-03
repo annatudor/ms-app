@@ -1,0 +1,26 @@
+.slider {
+    margin: 20px 0;
+    max-width: 800px; /* Lățime maximă a slider-ului */
+    margin: 0 auto; /* Centrează slider-ul pe pagină */
+  }
+  
+  .slider img {
+    width: 100%; /* Imaginea ocupă întreaga lățime a containerului */
+    height: auto; /* Menține proporțiile imaginii */
+    border-radius: 10px;
+    max-height: 400px; /* Înălțime maximă a imaginii */
+    object-fit: cover; /* Asigură că imaginea acoperă spațiul fără a se deforma */
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #2d0c50; /* Culoare săgeți */
+  }
+  
+  .slick-dots li button:before {
+    color: #2d0c50; /* Culoare puncte */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #e29c06; /* Culoare punct activ */
+  }

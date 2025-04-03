@@ -1,0 +1,17 @@
+.geolocation {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .geolocation h2 {
+    color: #2d0c50;
+  }
+  
+  .geolocation p {
+    color: #483201;
+  }
+  
+  .geolocation iframe {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

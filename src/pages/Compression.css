@@ -1,0 +1,49 @@
+.compression-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .compression-page h2 {
+    color: #2d0c50;
+    font-size: 2rem;
+  }
+  
+  .input-section textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-section button {
+    background-color: #e29c06;
+    color: #2d0c50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .input-section button:hover {
+    background-color: #29ae8d;
+  }
+  
+  .output-section {
+    margin-top: 20px;
+  }
+  
+  .output-section h3 {
+    color: #2d0c50;
+    font-size: 1.5rem;
+  }
+  
+  .output-section p {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }

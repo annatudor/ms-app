@@ -1,0 +1,39 @@
+.about-us {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    color: #2d0c50;
+    font-size: 2rem;
+  }
+  
+  .about-us p {
+    color: #483201;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+  }
+  
+  .location {
+    margin: 40px 0;
+  }
+  
+  .location h3 {
+    color: #2d0c50;
+    font-size: 1.5rem;
+  }
+  
+  .location p {
+    color: #483201;
+    margin-bottom: 20px;
+  }
+  
+  .about-video {
+    margin: 40px 0;
+  }
+  
+  .about-video h3 {
+    color: #2d0c50;
+    font-size: 1.5rem;
+  }
